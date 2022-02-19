@@ -8,7 +8,7 @@
 #define _ ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
 using namespace std;
 
-void print(vector<vector<ll>> &a){
+void print(vector<vector<ll> > &a){
     for (auto &i : a) {
         for (auto &j:i) {
             cerr << j << " ";
