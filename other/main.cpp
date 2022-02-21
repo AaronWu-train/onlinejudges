@@ -11,7 +11,9 @@ using namespace std;
 
 int main() {_
     
-    
+    for (int i = 0; i < n; i++) {
+        
+    }
     
     return 0;
 }
