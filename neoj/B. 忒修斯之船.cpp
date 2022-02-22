@@ -10,7 +10,7 @@ using namespace std;
 
 void print(vector<vector<ll> > &a){
     for (auto &i : a) {
-        for (auto &j:i) {
+        for (auto &j : i) {
             cerr << j << " ";
         }
         cerr << endl;
