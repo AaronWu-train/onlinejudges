@@ -10,11 +10,6 @@ using namespace std;
 
 
 int main() {_
-    
-    
-    
-    
-    
     int n;
     cin >> n;
     while (n!=0) {
