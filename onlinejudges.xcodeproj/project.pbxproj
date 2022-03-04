@@ -14,7 +14,6 @@
 		BA32FEE02750917A00C7F344 /* 4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA32FEDF2750917A00C7F344 /* 4.cpp */; };
 		BA32FEE2275091C300C7F344 /* 5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA32FEE1275091C300C7F344 /* 5.cpp */; };
 		BAC03D6727789ABD007347F0 /* b701.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAC03D6627789ABD007347F0 /* b701.cpp */; };
-		BAC1756227758ECD003210D4 /* 4489.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAC1756127758ECD003210D4 /* 4489.cpp */; };
 		BAC590B8274F5F85007307F3 /* dp_e.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAE1538D273938B200537D10 /* dp_e.cpp */; };
 		BADECFB327C754F100903B18 /* 1030.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BADECFB227C754F100903B18 /* 1030.cpp */; };
 		BAE0BA4F27AF8D33007BE3E9 /* Chessboard and Queens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAE0BA4E27AF8D33007BE3E9 /* Chessboard and Queens.cpp */; };
@@ -769,7 +768,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAC1756227758ECD003210D4 /* 4489.cpp in Sources */,
 				BA14099B27D1B8D70057AAB1 /* 4460.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
