@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		BA092AC3277EC694005A8746 /* other.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA2B32CE2705B2C000426653 /* other.cpp */; };
 		BA1330332759CE8500F52560 /* casting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA1330302759C13500F52560 /* casting.cpp */; };
-		BA1330372760BA6B00F52560 /* LIS 1175.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA1330362760BA6A00F52560 /* LIS 1175.cpp */; };
 		BA32FEDE2750911900C7F344 /* 3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA32FEDD2750911900C7F344 /* 3.cpp */; };
 		BA32FEE02750917A00C7F344 /* 4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA32FEDF2750917A00C7F344 /* 4.cpp */; };
 		BA32FEE2275091C300C7F344 /* 5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA32FEE1275091C300C7F344 /* 5.cpp */; };
 		BAC03D6727789ABD007347F0 /* b701.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAC03D6627789ABD007347F0 /* b701.cpp */; };
 		BAC1756227758ECD003210D4 /* 4489.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAC1756127758ECD003210D4 /* 4489.cpp */; };
 		BAC590B8274F5F85007307F3 /* dp_e.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAE1538D273938B200537D10 /* dp_e.cpp */; };
+		BADECFB327C754F100903B18 /* 1030.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BADECFB227C754F100903B18 /* 1030.cpp */; };
 		BAE0BA4F27AF8D33007BE3E9 /* Chessboard and Queens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAE0BA4E27AF8D33007BE3E9 /* Chessboard and Queens.cpp */; };
 		BAE0BA5627B12675007BE3E9 /* C. 好的數對.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAE0BA4427A8D6A0007BE3E9 /* C. 好的數對.cpp */; };
 /* End PBXBuildFile section */
@@ -185,6 +185,7 @@
 		BAD80DAE26FAD52400E1FF4B /* B.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = B.cpp; sourceTree = "<group>"; };
 		BAD80DB026FAD9F500E1FF4B /* C.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = C.cpp; sourceTree = "<group>"; };
 		BAD80DB226FEEEC500E1FF4B /* sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sort.cpp; sourceTree = "<group>"; };
+		BADECFB227C754F100903B18 /* 1030.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1030.cpp; sourceTree = "<group>"; };
 		BAE0BA4427A8D6A0007BE3E9 /* C. 好的數對.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C. 好的數對.cpp"; sourceTree = "<group>"; };
 		BAE0BA4627A8EECB007BE3E9 /* E. 大整數.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "E. 大整數.cpp"; sourceTree = "<group>"; };
 		BAE0BA4827AF8082007BE3E9 /* Tower of Hanoi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Tower of Hanoi.cpp"; sourceTree = "<group>"; };
@@ -382,6 +383,7 @@
 		BABF9A782701509E00BA9B12 /* tioj */ = {
 			isa = PBXGroup;
 			children = (
+				BADECFB227C754F100903B18 /* 1030.cpp */,
 				BA6645F2270ED8040025A57A /* 1006.cpp */,
 				BAF58D2926EE14B500EB3737 /* 2154_2.cpp */,
 				BAF58D2626EDEF0700EB3737 /* 2154.cpp */,
@@ -779,7 +781,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA1330372760BA6B00F52560 /* LIS 1175.cpp in Sources */,
+				BADECFB327C754F100903B18 /* 1030.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
