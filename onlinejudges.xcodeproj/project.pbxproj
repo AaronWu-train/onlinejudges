@@ -16,7 +16,8 @@
 		BA32FEE2275091C300C7F344 /* 5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA32FEE1275091C300C7F344 /* 5.cpp */; };
 		BAC03D6727789ABD007347F0 /* b701.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAC03D6627789ABD007347F0 /* b701.cpp */; };
 		BAC590B8274F5F85007307F3 /* dp_e.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAE1538D273938B200537D10 /* dp_e.cpp */; };
-		BAE0BA4F27AF8D33007BE3E9 /* Chessboard and Queens.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAE0BA4E27AF8D33007BE3E9 /* Chessboard and Queens.cpp */; };
+		BAD327B827F5B5D000A2E629 /* 1648.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAD327B627F5B5CC00A2E629 /* 1648.cpp */; };
+		BAD327BA27F5DE2000A2E629 /* 1649.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAD327B927F5DE2000A2E629 /* 1649.cpp */; };
 		BAE0BA5627B12675007BE3E9 /* C. 好的數對.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAE0BA4427A8D6A0007BE3E9 /* C. 好的數對.cpp */; };
 /* End PBXBuildFile section */
 
@@ -147,11 +148,11 @@
 		BA3869C3272E136900E028D2 /* bit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bit.cpp; sourceTree = "<group>"; };
 		BA3869C4272E136900E028D2 /* bit.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = bit.hpp; sourceTree = "<group>"; };
 		BA3869C8272E157300E028D2 /* 區間絕對眾數4474.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "區間絕對眾數4474.cpp"; sourceTree = "<group>"; };
-		BA45EE27279FC36F000DAE83 /* Bit Strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Bit Strings.cpp"; sourceTree = "<group>"; };
+		BA45EE27279FC36F000DAE83 /* Bit_Strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Bit_Strings.cpp; sourceTree = "<group>"; };
 		BA45EE29279FC6A9000DAE83 /* Trailing Zeros.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Trailing Zeros.cpp"; sourceTree = "<group>"; };
-		BA45EE2B279FCD8A000DAE83 /* Coin Piles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Coin Piles.cpp"; sourceTree = "<group>"; };
+		BA45EE2B279FCD8A000DAE83 /* Coin_Piles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Coin_Piles.cpp; sourceTree = "<group>"; };
 		BA45EE2D279FCFCA000DAE83 /* Palindrome Reorder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Palindrome Reorder.cpp"; sourceTree = "<group>"; };
-		BA45EE2F279FD7FF000DAE83 /* Gray Code.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Gray Code.cpp"; sourceTree = "<group>"; };
+		BA45EE2F279FD7FF000DAE83 /* Gray_Code.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Gray_Code.cpp; sourceTree = "<group>"; };
 		BA6645E82706CF250025A57A /* 111.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 111.cpp; sourceTree = "<group>"; };
 		BA6645EB2706D7460025A57A /* qwqww.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = qwqww.cpp; sourceTree = "<group>"; };
 		BA6645F0270EC07D0025A57A /* 1306.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1306.cpp; sourceTree = "<group>"; };
@@ -183,6 +184,8 @@
 		BAC03D6627789ABD007347F0 /* b701.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = b701.cpp; sourceTree = "<group>"; };
 		BAC1756127758ECD003210D4 /* 4489.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 4489.cpp; sourceTree = "<group>"; };
 		BAC590B9274F6192007307F3 /* c123.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = c123.cpp; sourceTree = "<group>"; };
+		BAD327B627F5B5CC00A2E629 /* 1648.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1648.cpp; sourceTree = "<group>"; };
+		BAD327B927F5DE2000A2E629 /* 1649.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 1649.cpp; sourceTree = "<group>"; };
 		BAD80DA626FAC71700E1FF4B /* atcoder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = atcoder; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAD80DA826FAC71700E1FF4B /* A - Frog 1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "A - Frog 1.cpp"; sourceTree = "<group>"; };
 		BAD80DAE26FAD52400E1FF4B /* B.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = B.cpp; sourceTree = "<group>"; };
@@ -191,10 +194,10 @@
 		BADECFB227C754F100903B18 /* 1030.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1030.cpp; sourceTree = "<group>"; };
 		BAE0BA4427A8D6A0007BE3E9 /* C. 好的數對.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "C. 好的數對.cpp"; sourceTree = "<group>"; };
 		BAE0BA4627A8EECB007BE3E9 /* E. 大整數.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "E. 大整數.cpp"; sourceTree = "<group>"; };
-		BAE0BA4827AF8082007BE3E9 /* Tower of Hanoi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Tower of Hanoi.cpp"; sourceTree = "<group>"; };
-		BAE0BA4A27AF83C7007BE3E9 /* Creating Strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Creating Strings.cpp"; sourceTree = "<group>"; };
-		BAE0BA4C27AF8705007BE3E9 /* Apple Division.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Apple Division.cpp"; sourceTree = "<group>"; };
-		BAE0BA4E27AF8D33007BE3E9 /* Chessboard and Queens.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Chessboard and Queens.cpp"; sourceTree = "<group>"; };
+		BAE0BA4827AF8082007BE3E9 /* Tower_of_Hanoi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Tower_of_Hanoi.cpp; sourceTree = "<group>"; };
+		BAE0BA4A27AF83C7007BE3E9 /* Creating_Strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Creating_Strings.cpp; sourceTree = "<group>"; };
+		BAE0BA4C27AF8705007BE3E9 /* Apple_Division.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Apple_Division.cpp; sourceTree = "<group>"; };
+		BAE0BA4E27AF8D33007BE3E9 /* Chessboard_and_Queens.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Chessboard_and_Queens.cpp; sourceTree = "<group>"; };
 		BAE0BA5027B108D3007BE3E9 /* A. 山.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "A. 山.cpp"; sourceTree = "<group>"; };
 		BAE0BA5227B11655007BE3E9 /* D. 魔法牆壁.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "D. 魔法牆壁.cpp"; sourceTree = "<group>"; };
 		BAE0BA5427B11AE0007BE3E9 /* B. 塗色.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "B. 塗色.cpp"; sourceTree = "<group>"; };
@@ -297,6 +300,8 @@
 		BA1161192769F54E00B03807 /* cses */ = {
 			isa = PBXGroup;
 			children = (
+				BAD327B627F5B5CC00A2E629 /* 1648.cpp */,
+				BAD327B927F5DE2000A2E629 /* 1649.cpp */,
 				BA11611A2769F54E00B03807 /* 1667.cpp */,
 				BA8467E5279F99F8008AA143 /* Weird Algorithm.cpp */,
 				BA8467E7279F9D2E008AA143 /* missing number.cpp */,
@@ -305,15 +310,15 @@
 				BAFCE542279FA544003EEEEB /* Permutations.cpp */,
 				BAFCE545279FA9F6003EEEEB /* Number Spiral.cpp */,
 				BAFCE547279FBF28003EEEEB /* Two Sets.cpp */,
-				BA45EE27279FC36F000DAE83 /* Bit Strings.cpp */,
+				BA45EE27279FC36F000DAE83 /* Bit_Strings.cpp */,
 				BA45EE29279FC6A9000DAE83 /* Trailing Zeros.cpp */,
-				BA45EE2B279FCD8A000DAE83 /* Coin Piles.cpp */,
+				BA45EE2B279FCD8A000DAE83 /* Coin_Piles.cpp */,
 				BA45EE2D279FCFCA000DAE83 /* Palindrome Reorder.cpp */,
-				BA45EE2F279FD7FF000DAE83 /* Gray Code.cpp */,
-				BAE0BA4827AF8082007BE3E9 /* Tower of Hanoi.cpp */,
-				BAE0BA4A27AF83C7007BE3E9 /* Creating Strings.cpp */,
-				BAE0BA4C27AF8705007BE3E9 /* Apple Division.cpp */,
-				BAE0BA4E27AF8D33007BE3E9 /* Chessboard and Queens.cpp */,
+				BA45EE2F279FD7FF000DAE83 /* Gray_Code.cpp */,
+				BAE0BA4827AF8082007BE3E9 /* Tower_of_Hanoi.cpp */,
+				BAE0BA4A27AF83C7007BE3E9 /* Creating_Strings.cpp */,
+				BAE0BA4C27AF8705007BE3E9 /* Apple_Division.cpp */,
+				BAE0BA4E27AF8D33007BE3E9 /* Chessboard_and_Queens.cpp */,
 			);
 			path = cses;
 			sourceTree = "<group>";
@@ -341,7 +346,7 @@
 			path = other;
 			sourceTree = "<group>";
 		};
-		BA32FED52750908500C7F344 /* xxxgreenjudge */ = {
+		BA32FED52750908500C7F344 /* greenjudge */ = {
 			isa = PBXGroup;
 			children = (
 				BA32FED62750908500C7F344 /* 1.cpp */,
@@ -350,7 +355,7 @@
 				BA32FEDF2750917A00C7F344 /* 4.cpp */,
 				BA32FEE1275091C300C7F344 /* 5.cpp */,
 			);
-			path = xxxgreenjudge;
+			path = greenjudge;
 			sourceTree = "<group>";
 		};
 		BA848E4B271840E80006B571 /* FN && Lemonline Judge */ = {
@@ -443,7 +448,7 @@
 				BA2B32C82705B1FC00426653 /* other */,
 				BA848E4B271840E80006B571 /* FN && Lemonline Judge */,
 				BAA439B627329AB700FF6F88 /* codeforce */,
-				BA32FED52750908500C7F344 /* xxxgreenjudge */,
+				BA32FED52750908500C7F344 /* greenjudge */,
 				BA1330282759B6E600F52560 /* toi */,
 				BA1161192769F54E00B03807 /* cses */,
 				BAC03D6027787AAA007347F0 /* neoj */,
@@ -738,7 +743,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAE0BA4F27AF8D33007BE3E9 /* Chessboard and Queens.cpp in Sources */,
+				BAD327B827F5B5D000A2E629 /* 1648.cpp in Sources */,
+				BAD327BA27F5DE2000A2E629 /* 1649.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
