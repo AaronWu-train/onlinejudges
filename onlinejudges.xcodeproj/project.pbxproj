@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		BA092AC3277EC694005A8746 /* other.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA2B32CE2705B2C000426653 /* other.cpp */; };
+		BA0E452F282F8C92004F6394 /* 1056.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA0E452E282F8C92004F6394 /* 1056.cpp */; };
 		BA1330332759CE8500F52560 /* casting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA1330302759C13500F52560 /* casting.cpp */; };
 		BA14099B27D1B8D70057AAB1 /* 4460.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA14099A27D1B8D70057AAB1 /* 4460.cpp */; };
-		BA18C04128222A01006C74BA /* 1012.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA18C04028222A01006C74BA /* 1012.cpp */; };
 		BA32FEDE2750911900C7F344 /* 3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA32FEDD2750911900C7F344 /* 3.cpp */; };
 		BA32FEE02750917A00C7F344 /* 4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA32FEDF2750917A00C7F344 /* 4.cpp */; };
 		BA32FEE2275091C300C7F344 /* 5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA32FEE1275091C300C7F344 /* 5.cpp */; };
+		BA50F1042830F85200F0FFF6 /* pC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA50F1032830F85200F0FFF6 /* pC.cpp */; };
 		BA5D39372817B36E0057ED6B /* 7129.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA5D39362817B36E0057ED6B /* 7129.cpp */; };
 		BAC03D6727789ABD007347F0 /* b701.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAC03D6627789ABD007347F0 /* b701.cpp */; };
 		BAC590B8274F5F85007307F3 /* dp_e.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAE1538D273938B200537D10 /* dp_e.cpp */; };
@@ -51,6 +52,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		BA32FED22750908400C7F344 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BA50F0F32830D43200F0FFF6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -126,6 +136,7 @@
 
 /* Begin PBXFileReference section */
 		BA0674BC27EF058600C08417 /* 1025.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1025.cpp; sourceTree = "<group>"; };
+		BA0E452E282F8C92004F6394 /* 1056.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1056.cpp; sourceTree = "<group>"; };
 		BA1161182769F54E00B03807 /* cses */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cses; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA11611A2769F54E00B03807 /* 1667.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1667.cpp; sourceTree = "<group>"; };
 		BA12013E27FEEAFB00D35E5A /* 1213.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1213.cpp; sourceTree = "<group>"; };
@@ -165,6 +176,12 @@
 		BA45EE2B279FCD8A000DAE83 /* Coin_Piles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Coin_Piles.cpp; sourceTree = "<group>"; };
 		BA45EE2D279FCFCA000DAE83 /* Palindrome Reorder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "Palindrome Reorder.cpp"; sourceTree = "<group>"; };
 		BA45EE2F279FD7FF000DAE83 /* Gray_Code.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Gray_Code.cpp; sourceTree = "<group>"; };
+		BA50F0F52830D43200F0FFF6 /* 建電下學期ㄉ模擬賽 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "建電下學期ㄉ模擬賽"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA50F0F72830D43200F0FFF6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BA50F0FC2830D69600F0FFF6 /* pB.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pB.cpp; sourceTree = "<group>"; };
+		BA50F0FE2830E27000F0FFF6 /* pA.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pA.cpp; sourceTree = "<group>"; };
+		BA50F1012830EC1300F0FFF6 /* pD.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pD.cpp; sourceTree = "<group>"; };
+		BA50F1032830F85200F0FFF6 /* pC.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pC.cpp; sourceTree = "<group>"; };
 		BA5D39342817B36E0057ED6B /* ojdl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ojdl; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA5D39362817B36E0057ED6B /* 7129.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 7129.cpp; sourceTree = "<group>"; };
 		BA6645E82706CF250025A57A /* 111.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 111.cpp; sourceTree = "<group>"; };
@@ -267,6 +284,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BA32FED12750908400C7F344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA50F0F22830D43200F0FFF6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -385,6 +409,18 @@
 			path = greenjudge;
 			sourceTree = "<group>";
 		};
+		BA50F0F62830D43200F0FFF6 /* 建電下學期ㄉ模擬賽 */ = {
+			isa = PBXGroup;
+			children = (
+				BA50F0F72830D43200F0FFF6 /* main.cpp */,
+				BA50F0FE2830E27000F0FFF6 /* pA.cpp */,
+				BA50F0FC2830D69600F0FFF6 /* pB.cpp */,
+				BA50F1032830F85200F0FFF6 /* pC.cpp */,
+				BA50F1012830EC1300F0FFF6 /* pD.cpp */,
+			);
+			path = "建電下學期ㄉ模擬賽";
+			sourceTree = "<group>";
+		};
 		BA5D39352817B36E0057ED6B /* ojdl */ = {
 			isa = PBXGroup;
 			children = (
@@ -432,6 +468,7 @@
 				BA6645F2270ED8040025A57A /* 1005.cpp */,
 				BA8218C528211572002C7A90 /* 1009.cpp */,
 				BA18C04028222A01006C74BA /* 1012.cpp */,
+				BA0E452E282F8C92004F6394 /* 1056.cpp */,
 				BAE5B6082820B79000E3CBF1 /* 1007.cpp */,
 				BA0674BC27EF058600C08417 /* 1025.cpp */,
 				BADECFB227C754F100903B18 /* 1030.cpp */,
@@ -498,6 +535,7 @@
 				BA1161192769F54E00B03807 /* cses */,
 				BAC03D6027787AAA007347F0 /* neoj */,
 				BA5D39352817B36E0057ED6B /* ojdl */,
+				BA50F0F62830D43200F0FFF6 /* 建電下學期ㄉ模擬賽 */,
 				BAF58CFF26E4A22900EB3737 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -516,6 +554,7 @@
 				BA1161182769F54E00B03807 /* cses */,
 				BAC03D5F27787AAA007347F0 /* neoj */,
 				BA5D39342817B36E0057ED6B /* ojdl */,
+				BA50F0F52830D43200F0FFF6 /* 建電下學期ㄉ模擬賽 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -613,6 +652,23 @@
 			name = xxxgreenjudge;
 			productName = xxxgreenjudge;
 			productReference = BA32FED42750908400C7F344 /* xxxgreenjudge */;
+			productType = "com.apple.product-type.tool";
+		};
+		BA50F0F42830D43200F0FFF6 /* 建電下學期ㄉ模擬賽 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA50F0FB2830D43200F0FFF6 /* Build configuration list for PBXNativeTarget "建電下學期ㄉ模擬賽" */;
+			buildPhases = (
+				BA50F0F12830D43200F0FFF6 /* Sources */,
+				BA50F0F22830D43200F0FFF6 /* Frameworks */,
+				BA50F0F32830D43200F0FFF6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "建電下學期ㄉ模擬賽";
+			productName = "建電下學期ㄉ模擬賽";
+			productReference = BA50F0F52830D43200F0FFF6 /* 建電下學期ㄉ模擬賽 */;
 			productType = "com.apple.product-type.tool";
 		};
 		BA5D39332817B36E0057ED6B /* ojdl */ = {
@@ -754,6 +810,9 @@
 					BA32FED32750908400C7F344 = {
 						CreatedOnToolsVersion = 13.1;
 					};
+					BA50F0F42830D43200F0FFF6 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
 					BA5D39332817B36E0057ED6B = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
@@ -802,6 +861,7 @@
 				BA1161172769F54E00B03807 /* cses */,
 				BAC03D5E27787AAA007347F0 /* neoj */,
 				BA5D39332817B36E0057ED6B /* ojdl */,
+				BA50F0F42830D43200F0FFF6 /* 建電下學期ㄉ模擬賽 */,
 			);
 		};
 /* End PBXProject section */
@@ -842,6 +902,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BA50F0F12830D43200F0FFF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA50F1042830F85200F0FFF6 /* pC.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BA5D39302817B36E0057ED6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -869,7 +937,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA18C04128222A01006C74BA /* 1012.cpp in Sources */,
+				BA0E452F282F8C92004F6394 /* 1056.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -974,6 +1042,26 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA50F0F92830D43200F0FFF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA50F0FA2830D43200F0FFF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1258,6 +1346,15 @@
 			buildConfigurations = (
 				BA32FED92750908500C7F344 /* Debug */,
 				BA32FEDA2750908500C7F344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA50F0FB2830D43200F0FFF6 /* Build configuration list for PBXNativeTarget "建電下學期ㄉ模擬賽" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA50F0F92830D43200F0FFF6 /* Debug */,
+				BA50F0FA2830D43200F0FFF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
