@@ -15,6 +15,15 @@ template<class I> void OI(I a, I b){ while(a < b) cerr << *a << " \n"[next(a) ==
 #define _ ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
 
 signed main() {_
-    
+    double n;
+    while (cin >> n) {
+        int k = ceil(n / 1.01);
+        debug(k);
+        if (k > 1024 || k < 0 || k*101/100 !=(int) n) {
+            cout << "stupid" << endl;
+        }else{
+            cout << k << endl;
+        }
+    }
     return 0;
 }

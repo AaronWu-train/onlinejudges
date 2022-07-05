@@ -13,8 +13,26 @@ template<class I> void OI(I a, I b){ while(a < b) cerr << *a << " \n"[next(a) ==
 #define OI(...) 0
 #endif
 #define _ ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
+const int maxn = 1e7+5;
+ll mcount[maxn] = {0};
+ll sum[maxn] = {0};
 
 signed main() {_
+    int t;
+    cin >> t;
+    for (int i = 1; i < maxn; ++i) {
+        for (int j = 1; j*i < maxn; ++j) {
+            mcount[i*j]++;
+            sum[i*j]+=i;
+        }
+    }
+    
+    while (t--) {
+        int k;
+        cin >> k;
+        cout << mcount[k] * sum[k] << endl;
+    }
+    
     
     return 0;
 }

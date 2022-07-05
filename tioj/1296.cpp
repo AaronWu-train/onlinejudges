@@ -13,8 +13,16 @@ template<class I> void OI(I a, I b){ while(a < b) cerr << *a << " \n"[next(a) ==
 #define OI(...) 0
 #endif
 #define _ ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
+ll f(ll x) {
+    if (x==1) return 1;
+    return (4*x-2)*f(x-1)/(x+1);
+}
+
 
 signed main() {_
-    
+    int n;
+    while (cin >> n) {
+        cout << f(n) << endl;
+    }
     return 0;
 }

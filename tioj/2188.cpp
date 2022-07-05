@@ -15,6 +15,19 @@ template<class I> void OI(I a, I b){ while(a < b) cerr << *a << " \n"[next(a) ==
 #define _ ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
 
 signed main() {_
-    
+    string k;
+    cin >> k;
+    string ans = "";
+    int count = 0;
+    for (auto i : k) {
+        if (i>='0' && i<='9') {
+            count = 10*count + (i-'0');
+        }else{
+            if (count == 0)ans+=i;
+            else while(count--)ans+=i;
+            count = 0;
+        }
+    }
+    cout << ans << endl;
     return 0;
 }

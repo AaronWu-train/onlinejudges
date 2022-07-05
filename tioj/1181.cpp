@@ -1,3 +1,4 @@
+#pragma GCC optimize("Ofast")
 #include <bits/stdc++.h>
 using namespace std;
 #define AI(x) begin(x),end(x)
@@ -15,6 +16,18 @@ template<class I> void OI(I a, I b){ while(a < b) cerr << *a << " \n"[next(a) ==
 #define _ ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
 
 signed main() {_
-    
+    int t;
+    cin >> t;
+    while (t--) {
+        map<char, int>mp;
+        mp['.'] = 0;
+        mp['X'] = 0;
+        for (int i = 0; i < 12; ++i) {
+            string temp;
+            cin >> temp;
+            for (char k : temp)mp[k]++;
+        }
+        cout << mp.size()-2 << endl;
+    }
     return 0;
 }

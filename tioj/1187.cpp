@@ -15,6 +15,21 @@ template<class I> void OI(I a, I b){ while(a < b) cerr << *a << " \n"[next(a) ==
 #define _ ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
 
 signed main() {_
-    
+    int n;
+    cin >> n;
+    while (n) {
+        int sumn = 0;
+        int maxn = 1;
+        int minn = 10;
+        for (int i = 0; i < n; ++i) {
+            int temp;
+            cin >> temp;
+            maxn = max(maxn, temp);
+            minn = min(minn, temp);
+            sumn += temp;
+        }
+        cout << fixed << setprecision(2) << (double)(sumn-maxn-minn)/(n-2) << endl;
+        cin >> n;
+    }
     return 0;
 }

@@ -1,3 +1,4 @@
+#pragma GCC optimize("Ofast")
 #include <bits/stdc++.h>
 using namespace std;
 #define AI(x) begin(x),end(x)
@@ -15,6 +16,19 @@ template<class I> void OI(I a, I b){ while(a < b) cerr << *a << " \n"[next(a) ==
 #define _ ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
 
 signed main() {_
+    int t;
+    cin >> t;
+    while (t--) {
+        int n,m;
+        cin >> n >> m;
+        vector<int>arr(n);
+        arr[0] = m;
+        for (int i = 1; i < n; ++i) cin >> arr[i];
+        sort(AI(arr));
+        cout << *upper_bound(AI(arr),m) << " " << *(--lower_bound(AI(arr),m))<<endl;
+    }
+    
+    
     
     return 0;
 }
