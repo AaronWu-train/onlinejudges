@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define AI(x) begin(x),end(x)
-#define ll long long
+#define ll long long int
 #define endl '\n'
 #ifdef DEBUG
 #define debug(args...) LKJ("[ "+string(#args)+" ]", args)
@@ -15,6 +15,13 @@ template<class I> void OI(I a, I b){ while(a < b) cerr << *a << " \n"[next(a) ==
 #define _ ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
 
 signed main() {_
-    
+    int n,k;
+    while (cin >> n >> k) {
+        for (int i = 0; i < n; ++i) {
+            string temp;
+            cin >> temp;
+            if (i == n-k) cout << temp << endl;
+        }
+    }
     return 0;
 }
