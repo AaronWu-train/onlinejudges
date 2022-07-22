@@ -27,8 +27,8 @@ signed main() {_
                 ans[i]+=sing.back().second;
                 sing.pop_back();
             }
-            if (!sing.empty()) ans[i]++;
             sing.push_back({arr[i], ans[i]});
+            if (sing.size() > 1) ans[i]++;
         }
        
         sing.clear();
@@ -39,8 +39,8 @@ signed main() {_
                 ans2[i]+=sing.back().second;
                 sing.pop_back();
             }
-            if (!sing.empty()) ans2[i]++;
             sing.push_back({arr[i], ans2[i]});
+            if (sing.size() > 1) ans2[i]++;
         }
         
         for (int i = 0; i < n; ++i) {
