@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <functional>
 using namespace std;
 #define AI(x) begin(x),end(x)
 #define ll long long
@@ -13,18 +14,23 @@ template<class I> void OI(I a, I b){ while(a < b) cerr << *a << " \n"[next(a) ==
 #define OI(...) 0
 #endif
 #define _ ios::sync_with_stdio(false);cin.tie(0);cout.tie(0);
+double pi = 3.14159265358;
 
 signed main() {_
-    int n, m;
-    cin >> n >> m;
-    bitset<300005> bt;
-    bt.reset();
-    for (int i = 0; i < m; ++i) {
-        int k;
-        cin >> k;
-        bitset<300005> temp = 1;
-        
-    }
+    int n;
+    cin >> n;
+    double ans = 0;
+    ll sumx = 0;
+    ll sumy = 0;
     
+    for (int i = 0; i < n; ++i) {
+        ll x, y;
+        cin >> x >> y;
+        ans += x * x + y * y;
+        sumx += x;
+        sumy += y;
+    }
+    ans = ans * n * 2 - 2 * ((double)sumx * sumx + (double)sumy * sumy);
+    cout << fixed << setprecision(9) << ans * pi / 4 << endl;
     return 0;
 }
