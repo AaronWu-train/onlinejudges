@@ -27,6 +27,13 @@ int main() {_
         for (int i = 0; i < k; ++i) {
             pq.push(arr[i].second);
         }
+		int mn = arr[k-1].first + pq.top();
+		for (int i = k; i < n; ++i) {
+			pq.push(arr[i].second);
+			pq.pop();		
+			mn = min( pq.top() + arr[i].first, mn);
+		}
+		cout << mn << endl;
     }
    
     

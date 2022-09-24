@@ -57,6 +57,7 @@ struct SegmentTree{
             mv %= mod;
             m %= mod;
         }
+
         void addv(ll x) {
             vtag += x;
             mvv += 2*mv % mod *x % mod + m*x %mod *x %mod;
