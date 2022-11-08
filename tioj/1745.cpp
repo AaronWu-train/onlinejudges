@@ -15,17 +15,16 @@ template<class I> void OI(I a, I b){ while(a < b) cerr << *a << " \n"[next(a) ==
 #define OI(...) 0
 #endif
 #define _ ios::sync_with_stdio(0);cin.tie(0);cout.tie(0);
-
+#define int long long
 signed main(){_
 	int n;
 	int a, b, c;
 	cin >> n;
 	cin >> a >> b >> c;
-	int p[n+5], x[n+5];
-	p[0] =x[0]= 0;
+	int p[n+5];
+	p[0] = 0;
 	for (int i = 1; i <= n; ++i) {
 		cin >> p[i];
-		x[i] = p[i];
 		p[i] += p[i-1];
 	}
 	ll d[n+5];
@@ -40,7 +39,7 @@ signed main(){_
 			debug(mono.front());
 			mono.pop_front();
 		}
-		d[i] = p[i]*aa[mono[0]] + bb[mono[0]] + a*p[i]*x[i] + b*p[i] + c;
+		d[i] = p[i]*aa[mono[0]] + bb[mono[0]] + a*p[i]*p[i] + b*p[i] + c;
 		aa[i] = -2 * a * p[i];
 		bb[i] = d[i] -b*p[i] + a*p[i]*p[i];
 		debug(i, d[i], aa[i], bb[i]);
@@ -57,3 +56,4 @@ signed main(){_
 
 	return 0;
 }
+
