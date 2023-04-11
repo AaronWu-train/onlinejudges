@@ -35,10 +35,11 @@ signed main() {_
     ll ans = 0;
     for (int i = 1; i <= n; ++i) {
         for (int j = 1; j <= n; ++j) {
-            ans = (ans + dis[i][j]) % mod;
+			if (dis[i][j] == mod - 1) ans -= 1;
+			else ans = (ans + dis[i][j]) % mod;
         }
     }
-    cout << ans << endl;
+    cout << (ans + mod)%mod<< endl;
     
     return 0;
 }

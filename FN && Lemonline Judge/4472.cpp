@@ -1,14 +1,30 @@
-#include <iostream>
-#include <vector>
-#include <string>
+// AC
+#pragma GCC optimize("Ofast")
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define pb push_back
+#define endl '\n'
+#define AI(x) begin(x),end(x)
+#ifdef DEBUG 
+#define debug(args...) LKJ("\033[1;32m[ "+string(#args)+" ]\033[0m", args)
+template<class I> void LKJ(I&&x){ cerr << x << '\n'; }
+template<class I, class...T> void LKJ(I&&x, T&&...t){ cerr << x << ", ", LKJ(t...); }
+template<class I> void OI(I a, I b){ while(a < b) cerr << *a << " \n"[next(a) == b], ++a; }
+#else
+#define debug(...) 0
+#define OI(...) 0
+#endif
+#define _ ios::sync_with_stdio(0);cin.tie(0);cout.tie(0);
 #define pii pair<int,int>
-int a[10005][10005];
+ll a[2][10005];
+ll pre[2][10005];
 int N,M;
 const int mod = 1e8+7;
 using namespace std;
 vector<string>maze;
-int p_adding[10005][10005];
-int main() {
+
+int main() {_
     ios::sync_with_stdio(0);
     cin.tie(0);
     cin >>N>>M;
@@ -20,22 +36,27 @@ int main() {
         maze.push_back(str);
     }
     a[1][1]=1;
-    for (int i=1; i<=N; i++) {
+	for (int i=1; i<=N; i++) {
         for (int j=1; j<=M; j++) {
-            if (i==1&&j==1)continue;
+			
+            pre[i%2][j] = (pre[(i-1)%2][j]+pre[i%2][j-1]-pre[(i-1)%2][j-1]+mod)%mod;
+			if (!(i == 1 && j == 1)) a[i%2][j] = 0;
+
             if (maze[i][j]=='x') {
-                a[i][j]=0;
-                p_adding[i][j] =(p_adding[i-1][j]+p_adding[i][j-1]-p_adding[i-1][j-1])%mod;
+                a[i%2][j]=0;
             }else{
-                p_adding[i][j] =(p_adding[i-1][j]+p_adding[i][j-1]-p_adding[i-1][j-1])%mod;
-                a[i][j]=(a[i-1][j]+a[i][j-1]+p_adding[i][j]) % mod;
+                a[i%2][j] += ( a[(i-1)%2][j] + a[i%2][j-1]);
+				a[i%2][j] += pre[i%2][j];
+				a[i%2][j] %= mod;
             }
-            if (maze[i][j]=='p'){
-                p_adding[i][j]=(p_adding[i][j]+a[i][j])%mod;
+            if (maze[i][j]=='p') {
+				pre[i%2][j] += a[i%2][j];
             }
+			debug(i, j, a[i%2][j],  pre[i%2][j]);
         }
     }
-    cout <<a[N][M]%mod<<endl;
+
+    cout <<a[N%2][M]%mod<<endl;
     return 0;
 }
 
