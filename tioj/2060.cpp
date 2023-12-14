@@ -2,6 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
+#define pb push_back
 #define endl '\n'
 #define AI(x) begin(x),end(x)
 #ifdef DEBUG 
@@ -15,16 +16,23 @@ template<class I> void OI(I a, I b){ while(a < b) cerr << *a << " \n"[next(a) ==
 #endif
 #define _ ios::sync_with_stdio(0);cin.tie(0);cout.tie(0);
 
-int main(){_
+void solve() {
+	int n, m, s, k;
+	cin >> n >> m >> s >> k;
+	vector<int> t(s), g(s), p(s), a(s), b(s);
+	for (int i = 0; i < s; ++i) {
+		cin >> t[i] >> g[i] >> p[i] >> a[i] >> b[i];
+	}
+	
+	
+}
+
+
+signed main(){_
 	int t;
 	cin >> t;
-	while(t--) {
-		int n, m, s, k;
-		cin >> n >> m >> s >> k;
-		
-
-
-
+	while (t--) {
+		solve();
 	}
 
 	return 0;

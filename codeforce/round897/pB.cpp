@@ -1,0 +1,56 @@
+#pragma GCC optimize("Ofast")
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long
+#define pb push_back
+#define endl '\n'
+#define AI(x) begin(x),end(x)
+#ifdef DEBUG 
+#define debug(args...) LKJ("\033[1;32m[ "+string(#args)+" ]\033[0m", args)
+template<class I> void LKJ(I&&x){ cerr << x << '\n'; }
+template<class I, class...T> void LKJ(I&&x, T&&...t){ cerr << x << ", ", LKJ(t...); }
+template<class I> void OI(I a, I b){ while(a < b) cerr << *a << " \n"[next(a) == b], ++a; }
+#else
+#define debug(...) 0
+#define OI(...) 0
+#endif
+#define _ ios::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+
+
+void solve() {
+	int n;
+	cin >> n;
+	string s;
+	cin >> s;
+	int diff = 0;
+	for (int i = 0; i < n/2; ++i) {
+		diff += (s[i] != s[n-i-1]);
+	}
+	for (int i = 0; i < diff; ++i) {
+		cout << 0;
+	}
+	if (n&1) {
+		for (int i = diff; i < n+1-diff; ++i) {
+			cout << 1;
+		}
+		for (int i = n+1-diff; i <= n; ++i) {
+			cout << 0;
+		}
+	}else {
+		for (int i = diff, k = 1; i < n+1-diff; ++i, k = !k) {
+			cout << k;
+		}
+		for (int i = n+1-diff; i <= n; ++i) {
+			cout << 0;
+		}
+	}
+	cout << endl;
+}
+
+
+signed main(){_
+	int t;
+	cin >> t;
+	while (t--) solve();
+	return 0;
+}
